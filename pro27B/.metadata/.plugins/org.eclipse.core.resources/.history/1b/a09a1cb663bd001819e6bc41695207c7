@@ -1,0 +1,15 @@
+package com.yc.thread;
+
+
+		System.out.println(Thread.currentThread().getName());
+	}
+
+}
+// public class T1 implements Runnable {
+//
+// @Override
+// public void run() {
+//
+// }
+//
+// }

@@ -1,0 +1,19 @@
+package com.yc.thread;
+
+//多线程类：并发处理
+public class T1 extends Thread {
+
+	@Override
+	public void run() {
+		System.out.println(Thread.currentThread().getName());
+	}
+
+}
+// public class T1 implements Runnable {
+//
+// @Override
+// public void run() {
+//
+// }
+//
+// }

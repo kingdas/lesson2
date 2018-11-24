@@ -1,0 +1,31 @@
+package com.yc.java021dao;
+
+import com.yc.framework.DbUtils;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// UserDao userDao = new UserDaoImpl();
+		// UserModel u = new UserModel("¹ËÎÀ", "...", 1);
+		// int n = userDao.add(u);
+		// System.out.println(n);
+		// /////////////////
+		UserDao userDao = new UserDaoImpl();
+		UserModel u = userDao.findById(4);
+		System.out.println(u);
+		// ///////////////////
+		u.setName("ÂíÁù");
+		u.setRemark("***");
+		u.setGroupId(2);
+
+		userDao.update(u);
+
+		u = userDao.findById(4);
+		System.out.println(u);
+
+	}
+
+}

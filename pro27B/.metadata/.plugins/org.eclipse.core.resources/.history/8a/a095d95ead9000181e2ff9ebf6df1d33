@@ -1,0 +1,185 @@
+package com.yc.java001base1;//包：解决类同名问题；分类；
+
+import java.util.Random;//导入包
+
+public class TestJava {// 类：
+
+	public static void main(String[] args) {// 方法：主方法；程序入口
+		// alt+/,代码提示
+		// ctrl+shift+f//格式化代码
+		// ctrl+f11运行
+		// ctrl+s保存
+		// ctrl+/注释
+		// System.out.println("hello world!");
+		// ///////////////////////////////
+		// int a;// 定义一个整型变量 a;四个字节；1字节=8位；1Byte=8bit;1B=8b;
+		// int b;
+		// int c;
+		// a = 5;// 变量赋值
+		// b = 8;
+		// c = a + b;
+		// System.out.println(c);
+		// c = a - b;
+		// System.out.println(c);
+		// c = a * b;
+		// System.out.println(c);
+		// c = a / b;// 除号两边都是整数，结果还是整数；
+		// System.out.println(c);
+		// c = a % b;
+		// System.out.println(c);
+		// // ////////////////////////////////////////
+		// int a = 15, b = 8, c;
+		// if (a > b) {// 条件，选择结构
+		// c = a;
+		// } else {
+		// c = b;
+		// }
+		// System.out.println(c);
+
+		// // ////////////////////////////////////////
+		// int a = 15, b = 8, c = 12, max;
+		// if (a > b) {// 条件，选择结构
+		// max = a;
+		// } else {
+		// max = b;
+		// }
+		// if (c > max) {
+		// max = c;
+		// }
+		// System.out.println(max);
+		// // ////////////////////////////////////////
+		// int a = 1, b = 8, c = 3, max;
+		// max = a;
+		// if (b > max) {
+		// max = b;
+		// }
+		// if (c > max) {
+		// max = c;
+		// }
+		// System.out.println(max);
+		// ////////////////////////////////////////
+		// int a = 11, b = 8, c = 31, max;
+		// if (a > b) {
+		// max = a;
+		// if (c > max) {
+		// max = c;
+		// }
+		// } else {
+		// max = b;
+		// if (c > max) {
+		// max = c;
+		// }
+		// }
+		// System.out.println(max);
+		// // //////////////////////////////////
+		// // 成绩90以上是A，60~89:B,小于60：C
+		// Random r = new Random();
+		// int score = r.nextInt(101);
+		// // System.out.println(score);
+		// score = 100;
+		// if (score >=90) {
+		// System.out.println("A");
+		// } else if (score >= 60) {
+		// System.out.println("B");
+		// } else {
+		// System.out.println("C");
+		// }
+
+		// //////////////////////////////////
+		// 成绩90以上是A，60~89:B,小于60：C
+		// Random r = new Random();
+		// int score = r.nextInt(101);
+		// // System.out.println(score);
+		// score = 90;
+		// if (score >= 90) {
+		// System.out.println("A");
+		// }
+		// if (score < 90 && score >= 60) {// 而且，and
+		// System.out.println("B");
+		// }
+		// if (score < 60) {
+		// System.out.println("C");
+		// }
+		// ////////////////////////////////
+		// System.out.println(3 + 4 + "java" + 3 + 4);
+		// String s = "ab" + 5;
+		// // ////////////////////////////////
+		// int a = 5, b = 8, c;
+		// System.out.println("a=" + a + ",b=" + b);
+		// c = a;
+		// a = b;
+		// b = c;
+		// System.out.println("a=" + a + ",b=" + b);
+		// // ////////////////////////////////
+		// int a = 5, b = 8, c;
+		// System.out.println("a=" + a + ",b=" + b);
+		// a=a+b;
+		// b=a-b;
+		// a=a-b;
+		// System.out.println("a=" + a + ",b=" + b);
+		// ////////////////////////////////
+		// int a = 15, b = 8, c;
+		// System.out.println("a=" + a + ",b=" + b);
+		// a = a ^ b;
+		// b = a ^ b;
+		// a = a ^ b;
+		// System.out.println("a=" + a + ",b=" + b);
+		// ////////////////////////////////
+		// 标识符：由字母、数字、下划线、$组成；不能以数字开头，不能是关键字
+		// int q3;
+		// int $_3q;
+		// // int int;
+		// // ////////////////////////////////
+		// int sum = 0;
+		// for (int i = 1/* 表达式一 ，循环变量初始化 */; i <= 100/* 表达式二，条件表达式 */; i = i +
+		// 1/*
+		// * 表达式三
+		// * ，
+		// * 增量表达式
+		// */) {// 循环：重复执行
+		// sum = sum + i;
+		// }
+		// System.out.println(sum);
+		// // ////////////////////////////////
+		// int sum = 0;
+		// for (int i = 1; i <= 100; i = i + 1) {
+		// sum = sum + i;
+		// }
+		// System.out.println(sum);
+		// ////////////////////////////////
+		// int sum = 0;
+		// int i = 1;
+		// for (; i <= 100;) {// 变量的作用域
+		// sum += i;
+		// ++i;
+		// }
+		// System.out.println(sum);
+		// System.out.println(i);
+		// ////////////////////////////////
+		// int sum = 0;
+		// int i = 1;
+		// while (i <= 100) {// 变量的作用域
+		// sum += i;
+		// ++i;
+		// }
+		// System.out.println(sum);
+		// ////////////////////////////////
+		// int sum = 0;
+		// int i = 1;
+		// for (;;) {// 死循环//无表达式二表示条件恒真
+		// if (i > 100) {
+		// break;
+		// }
+		// sum += i;
+		// ++i;
+		// }
+		// System.out.println(sum);
+		// // ////////////////////////////////
+		int sum = 0;
+		for (int i = 1; i <= 100; i += 2) {
+			sum += i;
+		}
+		System.out.println(sum);
+
+	}// 方法体
+}// 类体

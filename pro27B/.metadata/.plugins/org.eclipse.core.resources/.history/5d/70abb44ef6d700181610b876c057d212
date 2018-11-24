@@ -1,0 +1,26 @@
+package com.yc;
+
+import java.io.File;
+import java.util.Hashtable;
+
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.EncodeHintType;
+import com.google.zxing.MultiFormatWriter;
+import com.google.zxing.common.BitMatrix;
+
+public class Test {
+
+    public static void main(String[] args) throws Exception{
+        String text = "http://www.baidu.com";//¶þÎ¬ÂëµÄÄÚÈÝ
+        int width = 400;  
+        int height = 400;  
+        String format = "png";    
+        Hashtable hints= new Hashtable();  
+        hints.put(EncodeHintType.CHARACTER_SET, "utf-8");  
+        BitMatrix bitMatrix = new MultiFormatWriter().encode(text, BarcodeFormat.QR_CODE, width, height,hints);  
+        File outputFile = new File("E:/codeImg");  
+        MatrixToImageWriter.writeToFile(bitMatrix, format, outputFile); 
+        System.out.println("It is ok!");
+
+    }
+}

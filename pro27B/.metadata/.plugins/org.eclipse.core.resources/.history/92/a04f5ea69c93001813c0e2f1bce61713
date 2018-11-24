@@ -1,0 +1,28 @@
+package com.yc.java005base2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// 数据类型
+		// java中有八种基本数据类型
+		// 整数类型
+		byte b;// 在内存在占一个字节的内存空间
+		short s;// 占两个字节
+		int i;// 四
+		long l;// 八
+
+		b = 127;
+		// b = b + 1;// 错的，结果是int类型，赋值给byte。出错；
+		// b = (byte) (b + 1);// 强制类型转换
+		b += 1;// 编译器做了优化
+
+		char c;
+
+		float f;
+		double d;
+
+		boolean bln;
+
+	}
+
+}

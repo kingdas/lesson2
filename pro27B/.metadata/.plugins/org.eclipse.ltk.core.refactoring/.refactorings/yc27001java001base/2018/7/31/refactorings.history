@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.yc.framework.arrayUtils&apos; to &apos;com.yc.framework&apos;&#x0D;&#x0A;- Original project: &apos;yc27001java001base&apos;&#x0D;&#x0A;- Original element: &apos;yc27001java001base/src/com.yc.framework.arrayUtils&apos;&#x0D;&#x0A;- Renamed element: &apos;yc27001java001base/src/com.yc.framework&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.yc.framework.arrayUtils&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.yc.framework.arrayUtils" name="com.yc.framework" qualified="false" references="true" stamp="1533003265400" textual="false" version="1.0"/>
+</session>

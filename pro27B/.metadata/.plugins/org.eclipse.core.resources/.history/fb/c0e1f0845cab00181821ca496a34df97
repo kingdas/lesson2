@@ -1,0 +1,34 @@
+<%@page import="com.yc.user.UserModel"%>
+<%@page import="java.util.List"%>
+<%@page import="com.yc.user.UserDaoImpl"%>
+<%@page import="com.yc.user.UserDao"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		request.setCharacterEncoding("utf-8");
+		String m = request.getParameter("m");
+		if ("add".equals(m)) {
+
+		} else if ("del".equals(m)) {
+
+		} else {
+			list(request, response);
+		}
+	%>
+
+	<%!UserDao userDao = new UserDaoImpl();
+
+	void list(HttpServletRequest req, HttpServletResponse resp) {
+		List<UserModel> us = userDao.findAll();
+		req.setAttribute("us", us);
+		req.getRequestDispatcher("userList.jsp").forward(req, resp);
+	}%>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.yc.oa.service;
+
+public interface LoanService {
+
+}

@@ -1,0 +1,29 @@
+package com.yc.java017Collection;
+
+import java.util.Random;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int b;
+		int[] n;
+		Random r;
+		A a = new A();
+		A[] an;
+		an = new A[2];
+		an[0] = new A();
+		an[1] = new A();
+
+		Object[] os = { new A(), 2, "ab" };
+		a = (A) os[0];
+
+	}
+
+}
+
+class A {
+
+}

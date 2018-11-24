@@ -1,0 +1,18 @@
+package com.yc.java021dao;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+//		UserDao userDao = new UserDaoImpl();
+//		UserModel u = new UserModel("╧кню", "...", 1);
+//		int n = userDao.add(u);
+//		System.out.println(n);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;yc278002crud_jsp_servlet&apos; to &apos;yc27802crud_jsp_servlet&apos;" description="Rename resource &apos;yc278002crud_jsp_servlet&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/yc278002crud_jsp_servlet" name="yc27802crud_jsp_servlet" stamp="1537922221194" updateReferences="true"/>
+</session>

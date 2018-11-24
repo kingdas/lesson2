@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DbUtils.java&apos; to &apos;yc27003jsp004User_groupSys01/src/com.yc.framework&apos;&#x0D;&#x0A;- Original project: &apos;yc27001java001base&apos;&#x0D;&#x0A;- Destination element: &apos;yc27003jsp004User_groupSys01/src/com.yc.framework&apos;&#x0D;&#x0A;- Original element: &apos;com.yc.framework.DbUtils.java&apos;" description="Copy compilation unit" destination="=yc27003jsp004User_groupSys01/src&lt;com.yc.framework" element1="/src&lt;com.yc.framework{DbUtils.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1536284325669" units="1" version="1.0"/>
+</session>

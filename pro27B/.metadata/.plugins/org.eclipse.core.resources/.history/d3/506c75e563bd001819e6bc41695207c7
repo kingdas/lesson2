@@ -1,0 +1,12 @@
+package com.yc.thread;
+
+//多线程类：并发处理
+
+public class MyThread extends Thread {
+
+	@Override
+	public void run() {// 并发处理时调用的方法
+
+	}
+
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.122+F:\gw27\pro27B\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3822258018.index
+577426501.index
+3038712907.index
+330780857.index
+1512615133.index
+2329010040.index
